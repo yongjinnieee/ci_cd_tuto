@@ -67,17 +67,15 @@ class _InvitationState extends State<Invitation> {
             SizedBox(height: 10.0),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Expanded(
-                child: TextField(
-                  decoration: InputDecoration(
-                      filled: true,
-                      fillColor: Colors.white,
-                      border: OutlineInputBorder(),
-                      hintText: 'Type here',
-                      hintStyle: TextStyle(
-                        fontSize: 20.0,
-                      )),
-                ),
+              child: TextField(
+                decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Colors.white,
+                    border: OutlineInputBorder(),
+                    hintText: 'Type here',
+                    hintStyle: TextStyle(
+                      fontSize: 20.0,
+                    )),
               ),
             ),
             Row(
