@@ -11,13 +11,13 @@ workflows:
       cocoapods: default
       vars:
         FIREBASE_PROJECT: "sse3401-lab-6"
-    script:
+    scripts:
       - name: Get Flutter packages
         script: |
           flutter packages pub get
       - name: Build APK with Flutter
         script: |
-          flutter build apk --debug :
+          flutter build apk --debug 
       - name: Create debug and test APK
         script: |
           set ex
