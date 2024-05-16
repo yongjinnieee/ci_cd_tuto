@@ -1,4 +1,4 @@
-workflow:
+workflows:
   android-workflow:
     name: Android Workflow
     instance_type: mac_mini_m1
