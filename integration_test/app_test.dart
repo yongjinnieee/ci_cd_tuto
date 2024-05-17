@@ -156,7 +156,7 @@ void main() {
       await tester.pumpAndSettle(Duration(seconds: 2));
 
       final fac1Owner = find.byType(TextField).first;
-      final fac1OwnerNumber = find.byType(TextField).first;
+      final fac1OwnerNumber = find.byType(TextField).last;
 
       await tester.enterText(fac1Owner, "Sarah");
       await tester.pumpAndSettle(Duration(seconds: 2));
